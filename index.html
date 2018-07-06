@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Score Keeper Redesign</title>
+    <link type="text/css" rel="stylesheet" href="scoreKeeperComplete.css">
+</head>
+<body>
+ <div class="unit">
+    <div class="digitalDisplay">
+        <div class="players">
+            
+            <div class="player">
+                <div class="p1">Player One</div>
+                <p id="setsDisplayP1">Sets <span id="p1SetsDisplay">0</span>
+            </p>
+            </div>
+            <div class="player">
+                <div class="p2">Player Two</div>
+                <p id="setsDisplayP2">Sets <span id="p2SetsDisplay">0</span>
+                </p>
+            </div>
+            </div>
+
+        <div class="scores">
+            <p><span id="p1Display">0</span> : <span id="p2Display">0</span></p>
+        </div>
+        <p class="targetScore">First to <span id="winningScoreDisplay">5</span> sets wins</p>
+    </div>
+     <div class="buttons">
+        <input id="changeGames" type="number" placeholder="Games">
+        <input id="changeSets" type="number" placeholder="Sets">
+        <button id="p1Button">ONE</button>
+        <button id="p2Button">TWO</button>
+        <button id="resetButton">R</button>
+     </div>
+     
+</div>  
+    
+<script type="text/javascript" src="scoreKeeperComplete.js"></script>
+</body>
+</html>
